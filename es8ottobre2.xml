@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI [
+
+<!ELEMENT TEI (header, facsimile?, text+) >
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA?)> 
+<!ELEMENT text (#PCDATA+)>
+
+<!ATTLIST header 
+          type CDATA #FIXED >
+<!ATTLIST header 
+          lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile 
+          source #REQUIRED>
+<!ATTLIST facsimile 
+          ref IDREFS #IMPLIED>
+<!ATTLIST text 
+          ID ID #REQUIRED >
+<!ATTLIST text 
+          type CDATA #IMPLIED>
+
+]>
+<tei>
+<header> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</header>
+<facsimile> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</facsimile>
+<text> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</text>
+</tei>
