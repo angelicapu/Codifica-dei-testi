@@ -7,7 +7,7 @@
     </xsd:restriction> <!--chiusura della restrizione-->
 </xsd:simpleType> <!--chiusura dell' XSD element declaration-->
 
-<xsd:element name=''item''> <--!definizione di un elemento xsd, a cui si assegna un nome-->
+<xsd:element name=''item''> <!--definizione di un elemento xsd, a cui si assegna un nome-->
     <xsd:complexType> <!--XSD element declaration e individuazione di un ComplexType-->
         <xsd:attribute name=''originalChapter''type=''chapterNumberType''/> <!--attributo dell'elemento, con specifica di nome e tipo-->
     </xsd:complexType> <!--chiusura dell'XSD element declaration-->
