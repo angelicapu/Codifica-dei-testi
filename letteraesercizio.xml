@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+	<!--intestazione-->
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title> Lettera di presentazione </title>
+				<respStmt>
+					<name> Carla Bianchi </name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Gmail </publisher>
+				<date> 20/08/2016 </date>
+			</publicationStmt>
+			<sourceDesc>
+				<date> 20/08/2016 </date>
+				<!-- se si tratta di una lettera?-->
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="lettera">
+				<opener>
+					<dateline>
+						<date> Data: 20/08/2016 </date>
+					</dateline>
+					<msdescription> Oggetto: Candidatura per Junior Digital Specialist </msdescription>
+					<salute> Gentilissimo/a Responsabile della Selezione </salute>
+				</opener>
+				<p> le scrivo per sottoporre alla sua cortese attenzione la mia candidatura per la posizione di Junior Digital Specialist. </p>
+				<p>Ho conseguito da pochi mesi la maturità scientifica con il massimo dei voti e fin dai banchi di scuola mi sono appassionata al mondo digitale, 
+                tanto da aver seguito a scuola delle lezioni facoltative in questa materia. </p>
+				<p> Ho messo alla prova la mia attitudine digitale partecipando a un project work scolastico per valutare il grado di apprezzamento degli studenti 
+                della radio di istituto e ho proposto di misurare tale gradimento non attraverso un questionario cartaceo, bensì con una survey
+                online. </p>
+				<p> Ho gestito in prima persona l’utilizzo della piattaforma digitale e l’iniziativa ha riscosso successo, tanto che abbiamo ricevuto il 100% dei 
+                feedback!</p>
+				<p> Mi piacerebbe tanto iniziare a lavorare presso la vostra azienda, una delle start up più conosciute dai nativi digitali come me ed innovativa 
+                nelle soluzioni che propone, nel linguaggio e nei canali di comunicazione digitali e social. </p>
+				<p> Leggo sempre il vostro blog e i vostri post sugli ultimi trend in ambito digital. </p>
+				<p> Sono sicura che potrei imparare moltissimo e, nello stesso tempo, posso garantirvi tanta passione, entusiasmo e senso del dovere. Ho già maturato una breve esperienza di tirocinio durante il progetto alternanza-lavoro, dalla quale ho capito l’importanza 
+                di lavorare in team e dove ho potenziato le mie capacità comunicative e relazionali, tutte competenze da voi richieste nell’annuncio al quale 
+                ho risposto. </p>
+				<p> Nel privato mi occupo della pubblicizzazione su canali tradizionali e social di rappresentazioni teatrali di giovani del circolo culturale di 
+                cui sono la vicepresidente. </p>
+				<p> Le lascio qui di seguito i riferimenti della pagina facebook che gestisco in prima persona, cosicché possiate avere un ulteriore mezzo per valutare le mie competenze digitali: www.fecebook/pages/giovaniteatroroma/123 </p>
+				<closer>
+					<salute> La ringrazio per il tempo che mi ha dedicato e resto a disposizione per eventuali informazioni.Cordiali saluti, </salute>
+					<signed> Carla Bianchi </signed>
+					<div>
+						<p> carla.bianchi@mail.it </p>
+						<p> 333 33 33 333 </p>
+					</div>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
