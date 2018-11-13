@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI>
 	<!--intestazione-->
 	<teiHeader>
@@ -6,7 +7,8 @@
 			<titleStmt>
 				<title> Lettera di presentazione </title>
 				<respStmt>
-					<name> Carla Bianchi </name>
+                    <resp>transcription by </resp>
+                    <name>Angelica M. Puddu </name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -15,7 +17,6 @@
 			</publicationStmt>
 			<sourceDesc>
 				<date> 20/08/2016 </date>
-				<!-- se si tratta di una lettera?-->
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
