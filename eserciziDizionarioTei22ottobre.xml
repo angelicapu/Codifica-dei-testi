@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Il mio primo dizionario</title>
+				<author>Angelica M. Puddu </author>
+			</titleStmt>
+			<publicationStmt>
+				<pubPlace> Pisa </pubPlace>
+				<date> 2018 </date>
+			</publicationStmt>
+			<sourceDesc>
+				<date>2018</date>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text>
+		<body>
+			<p>Some text here.</p>
+			
+			<!--prima entry-->
+
+			<entry n="1">
+			   <!--forma-->
+				<form type="lemma">
+					<orth>lessicografo</orth>
+					<pron notation="ipa">lessi'kografo</pron>
+					<syll>les|si|cò|gra|fo</syll>
+				</form>
+				
+				<!--caratteristiche grammaticali-->
+				<gramGrp>
+					<pos>s.</pos>
+					<gen>m.</gen>
+				</gramGrp>
+
+				<!--caratteristiche etimologiche-->
+				<etym>dal<lang>greco tardo</lang>
+					<mentioned>λεξικογραφος</mentioned>, composto di<mentioned>λεξικον</mentioned> ossia <gloss>"lessico"</gloss> e <mentioned>γραφος</mentioned> ovvero <gloss>"grafo"</gloss>
+				</etym>
+
+				<!--significati-->
+				<sense n="s1">
+					<usg type="dom">(linguistica)</usg>
+					<def>chi si occupa di lessicografia</def>
+					<cit type="example">
+						<quote>Francesco Sabatini è un linguista, lessicografo e presidente onorario dell'Accademia della Crusca</quote>
+					</cit>
+				</sense>
+
+				<!--sinonimi-->
+
+				<sense n="s2">
+					<xr type="syn">
+						<ref>dizionarista</ref>
+					</xr>
+					<xr type="syn">
+						<ref>vocabolarista</ref>
+					</xr>
+				</sense>
+
+				<!--parole derivate-->
+
+				<re type="derived">
+					<form>
+						<orth>lessicografia</orth>
+					</form>
+				</re>
+
+			</entry>
+
+
+			<!--seconda entry-->
+
+			<entry n="2">
+			   <!--forma-->
+				<form type="lemma">
+					<orth>fregare</orth>
+					<pron notation="ipa">fre'gare</pron>
+					<syll>fre|ga|re</syll>
+				</form>
+
+				<!--caratteristiche grammaticali-->
+				<gramGrp>
+					<pos>v.</pos>
+					<subc>t</subc>
+				</gramGrp>
+
+				<!--caratteristiche etimologiche-->
+				<etym>dal<lang>latino</lang>
+					<mentioned>fricàre</mentioned>
+				</etym>
+
+				<!--significati-->
+				<sense n="s1">
+					<usg type="reg">(popolare)</usg>
+					<def>tirare un bidone</def>
+					<cit type="example">
+						<quote n="1">Ti ha fregato!</quote>
+						<quote n="2">Il baro lo fregò di brutto calando un poker d'assi alla fine dell'ultima mano</quote>
+					</cit>
+				</sense>
+
+				<sense n="s2">
+					<def>rubare</def>
+					<cit type="example">
+						<quote>Mi sono distratto un attimo e mi hanno fregato la borsa da sotto il naso!</quote>
+					</cit>
+				</sense>
+
+				<!--parole derivate-->
+
+				<re type="derived">
+					<form>
+						<orth>fregarsi</orth>
+					</form>
+				</re>
+
+				<re type="derived">
+					<form>
+						<orth>sfregare</orth>
+					</form>
+				</re>
+
+				<re type="derived">
+					<form>
+						<orth>fregatura</orth>
+					</form>
+				</re>
+			</entry>
+
+			<!--terza entry-->
+
+			<entry n="3">
+			   <!--forma-->
+				<form type="lemma">
+					<orth>dizionarista</orth>
+					<pron notation="ipa">dittsjonaˈrista</pron>
+					<syll>di|zio|na|rì|sta</syll>
+				</form>
+
+				<!--caratteristiche grammaticali-->
+				<gramGrp>
+					<pos>s.</pos>
+					<gen>m.</gen>
+				</gramGrp>
+
+				<!--caratteristiche etimologiche-->
+				<etym>dal<lang>italiano</lang>
+					<mentioned>dizionario</mentioned>
+				</etym>
+
+				<!--significati-->
+				<sense n="s1">
+					<usg type="reg" xml:id="uno">(professione)</usg>
+					<usg type="reg" xml:id="due">(letteratura)</usg>
+					<def>chi redige un vocabolario</def>
+				</sense>
+				
+				<!--sinonimi-->
+				
+				<sense n="s2">
+					<xr type="syn">
+						<ref>lessicografo</ref>
+					</xr>
+					<xr type="syn">
+						<ref>vocabolarista</ref>
+					</xr>
+				</sense>
+			</entry>
+
+			<!--quarta entry-->
+			<entry n="4">
+			   <!--forma-->
+				<form type="lemma">
+					<orth>vocabolarista</orth>
+					<pron notation="ipa">/vokabolaˈrista/</pron>
+					<syll>vo|ca|bo|la|rì|sta</syll>
+				</form>
+
+				<!--caratteristiche grammaticali-->
+				<gramGrp>
+					<pos>s.</pos>
+					<gen xml:id="uno">m.</gen>
+					<gen xml:id="due">f.</gen>
+				</gramGrp>
+
+				<!--caratteristiche etimologiche-->
+				<etym>dal<lang>italiano</lang>
+					<mentioned>vocabolario</mentioned>
+				</etym>
+
+				<!--significati-->
+				<sense n="s1">
+					<usg type="reg" xml:id="uno">(professione)</usg>
+					<usg type="reg" xml:id="due">(letteratura)</usg>
+					<def>chi redige un vocabolario</def>
+				</sense>
+
+				<!--sinonimi-->
+				
+				<sense n="s2">
+					<xr type="syn">
+						<ref>lessicografo</ref>
+					</xr>
+				</sense>
+
+			</entry>
+
+			<!--quinta entry-->
+
+			<entry n="5">
+			   <!--forma-->
+				<form type="lemma">
+					<orth>vocabolista</orth>
+					<pron notation="ipa">/vokabolˈista/</pron>
+					<syll>vo|ca|bo|lì|sta</syll>
+					<form>
+						<usg> vocabulista </usg>
+					</form>
+				</form>
+
+				<!--caratteristiche grammaticali-->
+				<gramGrp>
+					<pos>s.</pos>
+					<gen xml:id="uno">m.</gen>
+					<gen xml:id="due">f.</gen>
+				</gramGrp>
+
+				<!--caratteristiche etimologiche-->
+				<etym>dal<lang>italiano</lang>
+					<mentioned>vocabolo</mentioned>
+				</etym>
+
+				<!--significati-->
+				<sense n="s1">
+					<def>insieme di vocaboli</def>
+				</sense>
+
+				<!--sinonimi-->
+				
+				<sense n="s2">
+					<xr type="syn">
+						<ref>lessicografo</ref>
+					</xr>
+					<xr type="syn">
+						<ref>vocabolario</ref>
+					</xr>
+				</sense>
+
+				<!--parole derivate-->
+
+				<re type="derived">
+					<form>
+						<orth>vocabolistario</orth>
+					</form>
+				</re>
+
+			</entry>
+		</body>
+	</text>
+</TEI>
