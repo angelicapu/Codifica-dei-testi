@@ -6,9 +6,11 @@
     <fileDesc>
         <titleStmt>
             <title>TEI introduction</title>
-            <resp> Codifica a cura di 
-                <name>Angelica M. Puddu </name>
-            </resp>
+            <respStmt>
+                <resp> Codifica a cura di 
+                    <name>Angelica M. Puddu </name>
+                </resp>
+            </respStmt>
         </titleStmst>
         <publicationStmt>
             <publisher> TEI consortium </publisher>
