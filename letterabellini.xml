@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title> Lettera del Bellini: edizione digitale </title>
+            <respStmt>
+                <resp> Codifica a cura di  </resp>
+                <name> 
+                    <forename> Angelica Maria </forename>
+                    <surname> Puddu </surname>
+                </name>
+            </respStmt>
+        </titleStmt>
+
+        <editionStmt>
+            <edition>Corso Codifica dei Testi 
+                <date>2018</date>
+            </edition>
+        </editionStmt>
+
+        <publicationStmt>
+            <publisher> GitHub </publisher>
+            <date> 16 novembre 2018 </date>
+            <availability status="restricted"> <p> Soltanto come esercitazione del corso </p> </availability>
+        </publicationStmt>
+
+        <noteStmt>
+            <note>Nel testo sono presenti delle scritte non comprensibili in maniera completa </note>
+        </noteStmt>
+
+        <sourceDesc>
+            <bibl>           
+                <title>Lettera del Bellini sul sonetto del p: atto dei Puritani</title>
+                <publisher>
+                    <name>
+                        <forename> Vincenzo </forename>
+                        <surname> Bellini </surname>
+                    </name>
+                </publisher>
+                <date> 27 giugno 1834 </date>
+                <pubPlace> Puteaux </pubPlace>
+            </bibl>
+        
+            <msDesc>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>
+                                <objectType>Cartolina</objectType>
+                                <material>Carta</material>
+                                <dimensions unit="cm">
+                                    <height>9</height>
+                                    <width>14</width>
+                                </dimensions>
+                                <stamp> timbro
+                                    <date> 7 giugno </date>
+                                </stamp>
+                            </support>
+                            <condition>Buono </condition>
+                        </supportDesc>
+                    </objectDesc>>
+                </physDesc>
+            </msDesc>    
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text type="cartolina">
+    <body>
+        <div xml:id="testi">
+            <div xml:id="fronte">
+                <div type="destination" xml:id="falto">
+                    <address>
+                        <addrLine> A' <foreign xml:lang="fr"> Monsieur </foreign></addrLine>
+                    </address>
+                    <argument> 
+                        <p> <foreign xml:lang="fr"> Monsieur le <name type="person">Conte Pepoli </name> W. I: passage de le petite <unclear> derrer </unclear> à <name type="place">Paris </name> </foreign> </p>
+                    </argument>
+                    <stamp type="postmark"> 
+                        <address>   
+                            <geogName>Neuilly-sur-Seine</geogName>
+                        </address>
+                        <date> 27 Juin <gap reason="illegible"/> </date>
+                    </stamp>
+                </div>
+
+                <div type="fronte" xml:id="fbasso">
+                    <p>Lettera del <name type="person">Bellini </name> sul sonetto del <abbr> p </abbr>: atto dei Puritani</p>
+                    <stamp type="postmark"> 
+                        <damage>
+                            <gap reason="illegible"/>
+                            <date>  27 <gap reason="illegible"/> </date>
+                        </damage>
+                    </stamp>
+                </div>
+            </div>
+
+            <div type="retro">
+                <opener xml:id="open">
+                    <dateline> 
+                        <date>Juin 26 </date>
+                        <geogName> Puteaux </geogName>
+                    </dateline>
+                    <unclear> 
+                        w: 14: by sempre le <geogName> Neuilly </geogName> 
+                    </unclear>
+                    <salute> 
+                        Mio caro <name type="person"> Carluccio </name>, 
+                    </salute>
+                </opener>
+
+                <p xml:id="t1"> avendo inteso l'intero duetto e mandando in esso qualche cosetta,
+                    desidererei che tu t'incommodassi a venire a' <geogName> Peteux </geogName> per <unclear> tutto </unclear>
+                    finire, e nell'istesso tempo darmi la sortita di <geogName> Namibia </geogName>, se è 
+                    terminata.
+                </p>
+
+                <closer xml:id="close"> 
+                    <salute>
+                        Ti aspetto in qual giorno e in qual'ora vorrai. Addio <uncler> vostro </uncler>
+                    </salute>
+                    <signed> 
+                        <name> Vincenzo </name> 
+                    </signed>
+                </closer>
+            </div>
+        </div>
+    </body>    
+</text>    
+
+<facsimile xml:id="immagini">
+    <surface xml:id="front" start="#fronte">
+        <graphic url='bellini2.jpg' width='1268px' height='1646px' />
+            <zone ulx="94" start="#falto" uly="526" lrx="1230" lry="989" />
+            <zone ulx="715" start="fabasso" uly="1011" lrx="1028" lry="1597" />
+    </surface>
+    <surface xml:id="retr" start="#retro">
+        <graphic url='bellini1.jpg' width='1265px' height='1639px' />
+        <zone start="#open" points = ' 185,228 108,1458 420,1460 415,1365 1221,1368 1221,226 ' />
+        <zone start="#t1" points = ' 109,1479 439,1475 430,1380 1212,1386 1212,1607 112,1602 ' />
+        <zone start="#close" ulx="49" uly="36" lrx="1234" lry="219" />
+    </surface>
+</facsimile>
+
+</TEI>
+
+
+
+
+
+
