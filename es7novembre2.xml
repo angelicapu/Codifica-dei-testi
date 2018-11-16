@@ -4,19 +4,24 @@
         <fileDesc>
         <titleStmt>
             <title> Letter </title>
-            <author> 
-                <name>Mr Louis Burnard </name>
-            </author>
+            <respStmt>
+                <resp> a cura di
+                    <name>Angelica M. Puddu </name>
+                </resp>
+            </respStmt>
         </titleStmt>
         <publicationStmt>
             <date> 26/10/1970</date>
         </publicationStmt>
         <sourceDesc>
-            <date>26/10/1970</date>
+            <bibl>
+                <author> Mr Louis Burnard </author>
+                <date>26/10/1970</date>
+            </bibl>
         </sourceDesc>
     </fileDesc>    
-    
     </teiHeader>
+    
     <text>
         <body>
             <div type="verso">
