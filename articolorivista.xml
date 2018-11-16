@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title> 5 cose che può fare l'intelligenza artificiale: versione elettronica </title>
+            <respStmt>  
+                <resp> Scritto da:
+                    <author> 
+                        <name> Newsroom Ninja </name>
+                    </author>
+                </resp>
+                <resp> Conversione TEI P5 a cura di 
+                    <name> 
+                        <forename> Angelica </forename>
+                        <surname> Puddu </surname>
+                    </name>
+                </resp>
+            </respStmt>
+        </titleStmt>
+
+        <editionStmt>
+            <date> 16 novembre 2018 </date>
+        </editionStmt>
+
+        <publicationStmt>
+            <publisher> GitHhub </publisher>
+            <date> 2018 </date>
+            <availability status="restricted"> <p> Soltanto come esercitazione del corso </p> </availability>
+        </publicationStmt>
+
+        <sourceDesc>
+            <bibl>
+                <title type="main" level="j"> 5 cose che può fare l’Intelligenza Artificiale per il tuo eCommerce </title>
+                <title type="sub" level="j">I consigli di You Are my Guide, startup torinese, per sfruttare al meglio il machine learning e aumentare le vendite, anche durante il Black Friday </title>
+                <author> 
+                        <name> Newsroom Ninja </name>
+                </author>
+                <publisher> www.ninjamarketing.it </publisher>
+                <date> 7 novembre 2018 </date>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div xml:id="primoblocco">
+            <p> <foreign xml:lang="eng">Black Friday </foreign> e <foreign xml:lan="eng">Cyber Monday </foreign>, rispettivamente in agenda il <date> 23 e 26 novembre</date>, aprono la stagione dello shopping natalizio. </p>
+            <p> Il <foreign xml:lang="eng">Black Friday </foreign>, per cominciare, è una ricorrenza che ha fatto la sua prima comparsa nel <date> 1924</date>, nel giorno successivo al Ringraziamento, grazie alla 
+                catena di negozi <name type="org"> Macy's </name>. <name type="org">Amazon</name> è stato uno dei primi siti a rilanciare questo evento in <name type="place">Italia </name>, che ha avuto un successo crescente. 
+                Per questo, durante l'evento, è una delle prime mete degli utenti online in cerca di super offerte di cui approfittare. 
+                Oggi la data non è fissa ma è sempre il venerdì che segue il giorno del Ringraziamento. </p>
+                
+            <p>Il <foreign xml:lang="eng">Cyber Monday </foreign> è un altro giorno che l'<foreign xml:lang="eng">eCommerce </foreign> di <name type="person">Jeff Bezos </name>dedica alle offerte,  a prodotti di elettronica, a giocattoli, ad articoli per la casa e ad utensili. 
+                Detto questo, entrambi i giorni sono un'occasione ghiotta per chi vende. Qualche consiglio non guasta. </p>
+            
+            <p>La startup torinese <name> You Are my Guide </name> ha sviluppato una piattaforma di <foreign xml:lang="eng"> content marketing strategy </foreign> basata su Intelligenza Artificiale che si 
+                chiama <name type="org"> GhostWriter </name> e ha stilato un <foreign xml:lang="lat">vademecum </foreign> per scoprire come i <foreign xml:lang="eng">merchant eCommerce </foreign> possono aumentare le vendite fino al <num type="percentage">35% </num> grazie all’Intelligenza Artificiale. Non solo durante <foreign xml:lang="eng">Black Friday </foreign> e <foreign xml:lang="eng">Cyber Monday </foreign>. </p>
+
+            <p> L'Intelligenza Artificiale è una strategia che può fare la differenza <q> “Chi si occupa di vendere, grazie all’esperienza dei più importanti 
+                colossi globali dell'eCommerce, sta scoprendo che l'Intelligenza Artificiale è una strategia che può fare la differenza. 
+                Fa aumentare le vendite, coinvolge i clienti e offre esperienze e interazioni personalizzate” </q> ha spiegato <name type="person">Ester Liquori </name>, <foreign xml:lang="eng">founder </foreign> e CEO di <name type="org">You Are My Guide.</name>
+                <q>“Tramite l’AI la piattaforma GhostWriter permette alle aziende di vendere di più, trovando il pubblico migliore, argomenti di interesse e la previsione del risultato”. </q> </p>
+        </div>
+     
+        <div xml:id="secondoblocco">
+            <list>
+                <item xml:id="uno">
+                    <label> 1.  Sceglie il profilo dei clienti </label>
+                    <p>Niente più analisi manuale dei <foreign xml:lang="eng">competitor </foreign> o <foreign xml:lang="eng">brainstorming </foreign> per individuare il profilo ideale dei clienti: l’Intelligenza Artificiale permette di 
+                       identificare il pubblico migliore analizzando somiglianze, abitudini quotidiane, argomenti di tendenza e preferenze di acquisto, attraverso 
+                       più canali. Così le aziende hanno a portata di mano i profili di chi ha maggiori possibilità di diventare effettivamente cliente. </p>
+                </item>
+
+                <item xml:id="due">
+                    <label>2. Migliora le vendite</label>
+                    <p> Una volta individuato il target giusto, è necessario creare contenuti che possano coinvolgerlo e interessarlo. L'Intelligenza Artificiale permette
+                        di fare previsioni su come le vendite saranno in linea con i profili dei potenziali clienti e di aumentare la precisione della messaggistica, 
+                        garantendo il contesto, parlando con lo stesso tono e le stesse parole in cui il  gruppo di persone che si desidera coinvolgere può riconoscersi. </p>
+                </item>
+        
+                <item xml:id="tre"> 
+                    <label> 3. Ti fa risparmiare tempo e denaro </label>
+                    <p> L’intelligenza artificiale permette di risparmiare tempo e <foreign xml:lang="eng">budget </foreign>, poiché è in grado di profilare i nuovi clienti, assegnando loro un punteggio,  
+                        prevedendo risultati di vendita e allo stesso tempo suggerendo al venditori il momento giusto per raggiungere il potenziale nuovo cliente. </p>
+                </item>
+
+                <item xml:id="quattro">
+                    <label>4. Suggerisce gli acquisti giusti</label>
+                    <p> <mentioned>“Coccolare”</mentioned> i clienti già esistenti è fondamentale per migliorare le vendite dell’<foreign xml:lang="eng">eCommerce</foreign> fino al <num type="percentage">32% </num>: l’AI ad esempio può suggerire nuovi 
+                        prodotti da acquistare, analizzando ciò che hanno fatto altri clienti con gusti simili e compatibili. </p>
+                </item>
+
+                <item id="cinque">
+                    <label>5. Personalizza i contenuti</label>
+                    <p>Al bando i contenuti uguali per tutti: il <num type="percentage">52% </num> dei consumatori è probabile che cambi marca se si sente trattato come chiunque altro.  
+                       Le persone si dimostrano infatti più disposte a fare acquisti se vengono colpite da un contenuto personalizzato e pensato appositamente per loro. 
+                       A questo proposito viene in aiuto l’Intelligenza Artificiale che fornisce contenuti appropriati e suggerimenti di <foreign xml:lang="eng">upselling </foreign>e <foreign xml:lang="eng">cross-selling </foreign>
+                       specificatamente dedicati a ciascun cliente per una strategia di personalizzazione vincente. </p>
+                </item>
+            </list>
+        </div>
+    </body>
+</text>
+</TEI>
